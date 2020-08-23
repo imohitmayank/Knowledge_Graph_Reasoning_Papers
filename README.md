@@ -72,3 +72,6 @@ Given head and tail entity and paths between them, predict the missing relation.
 
 1. **Embedding Logical Queries on Knowledge Graphs.** *William L. Hamilton, Payal Bajaj, Marinka Zitnik, Dan Jurafsky, Jure Leskovec.* NIPS 2018. [paper](http://papers.nips.cc/paper/7473-embedding-logical-queries-on-knowledge-graphs.pdf)
     > This paper aims to develop techniques that can go beyond simple edge prediction and handle more complex logical queries, which might involve multiple unobserved edges, entities, and variables. They introduce a framework to efficiently make predictions about conjunctive logical queries --— a flexible but tractable subset of first-order logic —-- on incomplete knowledge graphs.
+    
+2. **Query2box: Reasoning over Knowledge Graphs in Vector Space using Box Embeddings** *Hongyu Ren, Weihua Hu, Jure Leskovec* 2020 [paper](https://arxiv.org/abs/2002.05969)
+    > It's an embedding-based framework for reasoning over arbitrary queries with conjunctions (∧), disjunctions (∨), and existential quantifiers (∃) operators in massive and incomplete KGs.  The main insight is that queries can be embedded as boxes (i.e., hyper-rectangles), where a set of points inside the box corresponds to a set of answer entities of the query. This provides a major improvement over previous frameworks which embeeds queries as a single points. 
